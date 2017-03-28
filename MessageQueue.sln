@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MQ", "MessageQueue\MQ.cspro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MQTest", "MessageQueueTest\MQTest.csproj", "{AB80B3FD-B315-40B1-BBF2-436C2140F8FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sender", "Sender\Sender.csproj", "{C78219A8-EF29-40E9-BE83-D5B51EC87020}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receiver", "Receiver\Receiver.csproj", "{D7A7E80B-D687-44DC-9A5F-16ED279B7829}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{AB80B3FD-B315-40B1-BBF2-436C2140F8FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB80B3FD-B315-40B1-BBF2-436C2140F8FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB80B3FD-B315-40B1-BBF2-436C2140F8FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C78219A8-EF29-40E9-BE83-D5B51EC87020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C78219A8-EF29-40E9-BE83-D5B51EC87020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C78219A8-EF29-40E9-BE83-D5B51EC87020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C78219A8-EF29-40E9-BE83-D5B51EC87020}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7A7E80B-D687-44DC-9A5F-16ED279B7829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7A7E80B-D687-44DC-9A5F-16ED279B7829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7A7E80B-D687-44DC-9A5F-16ED279B7829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7A7E80B-D687-44DC-9A5F-16ED279B7829}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

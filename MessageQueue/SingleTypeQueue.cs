@@ -26,13 +26,13 @@ namespace MQ
         }
 
 
-        public void SendMessage<T>(T messageBody) where T:class
+        public void SendMessage<T>(string messageLable, T messageBody) where T:class
         {
             using (var mQueue = CreateNewMessageQueue(QueueName,DeleteExistingQueueWithSending,Transactional))
             {
                 var message = new Message()
                 {
-                    Label = "test",
+                    Label = messageLable,
                     Body = messageBody,
                 };
                 message.Formatter = new XmlMessageFormatter(new Type[] { typeof(T) });
